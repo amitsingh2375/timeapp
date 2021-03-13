@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0, 204, 255);
+}
+.hours,.minutes,.seconds,.amorpm{
+    text-align: center;
+    justify-content: center;
+    width: 4em;
+    margin: 1em;
+    background: palegoldenrod;
+    height: 4em;
+    padding: 1em;
+    border-radius: 8px;
+    display: flex;
+}
+.box{
+    text-align: center;
+}
+.box>h1{
+    font-size: 1em;
+}
+#hours,#minutes,#seconds,#amorpm{
+    text-align: center;
+    font-size: 2em;
+    height: 5vh;
+    margin: 20px;
+}
